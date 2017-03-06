@@ -649,3 +649,27 @@ Processing by VisitorsController#index as HTML
 Completed 200 OK in 28ms (Views: 25.7ms | ActiveRecord: 0.1ms)
 
 
+Started GET "/" for ::1 at 2017-03-06 14:58:10 -0500
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  [1m[36mVisitor Load (0.1ms)[0m  [1m[34mSELECT "visitors".* FROM "visitors"[0m
+  Rendered visitors/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 20ms (Views: 18.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for ::1 at 2017-03-06 14:58:24 -0500
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  [1m[36mVisitor Load (0.2ms)[0m  [1m[34mSELECT "visitors".* FROM "visitors"[0m
+  Rendered visitors/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 20ms (Views: 18.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2017-03-06 14:59:04 -0500
+Processing by VisitorsController#index as HTML
+  Rendering visitors/index.html.erb within layouts/application
+  [1m[36mVisitor Load (0.1ms)[0m  [1m[34mSELECT "visitors".* FROM "visitors"[0m
+  Rendered visitors/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 21ms (Views: 19.3ms | ActiveRecord: 0.1ms)
+
+
